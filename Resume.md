@@ -7,7 +7,6 @@ Before to start coding and programming with Python, some mandatory tools need to
 • ChatGPT, https://chat.openai.com/; 
 • PyCharm Community Edition, https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC/;
 • Git, https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe.
-#### NB: To document my work, i'll continue with Pycharm.
 ### KEYWORD IN PYTHON
 A computer programming language is made up of a set of predefined words called keywords. A prescribed usage rule for each keyword is called syntax. 
 Here is some list of the Python keywords: (False, None, True, and, as, else, elif, if, in, is, while, etc). The global list of Python keywords can be obtained using the following help command. eg: help("keywords"). Enter any keyword to get more help. eg: help("while"). # NB: Except for the first three (False, None and True), the other keywords are entirely in lowercase.
@@ -56,6 +55,6 @@ Python keyword while has a conditional expression followed by the : symbol to st
 The else block can follow the while loop. The else block will be executed when the boolean expression of the while loop evaluates to False. 
 ### for loop 
 The for loop is used for iterating over sequence types such as list, tuple, set, range, etc. It cannot be used to execute some code repeatedly.
-### NB: If a loop (for loop or while loop) contains another loop in its body block, we say that the two loops are nested. If the outer loop is designed to perform m iterations and the inner loop is designed to perform n repetitions, the body block of the inner loop will get executed m X n times.
+#### NB: If a loop (for loop or while loop) contains another loop in its body block, we say that the two loops are nested. If the outer loop is designed to perform m iterations and the inner loop is designed to perform n repetitions, the body block of the inner loop will get executed m X n times.
 ### PYTHON FUNCTIONS
 A function is a reusable block of programming instructions designed to perform a certain task. Python includes many integrated functions. However, it is possible to define a function if the one integrated in Python is not appropriate to serve a given objective. To define a function, Python provides the keyword def. The keyword def is followed by a suitable identifier as the name of the function and parentheses. eg: def sum (): One or more parameters may be optionally mentioned inside parentheses. The : symbol after parentheses starts an indented block.
