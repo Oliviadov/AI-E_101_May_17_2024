@@ -58,3 +58,17 @@ The for loop is used for iterating over sequence types such as list, tuple, set,
 #### NB: If a loop (for loop or while loop) contains another loop in its body block, we say that the two loops are nested. If the outer loop is designed to perform m iterations and the inner loop is designed to perform n repetitions, the body block of the inner loop will get executed m X n times.
 ### PYTHON FUNCTIONS
 A function is a reusable block of programming instructions designed to perform a certain task. Python includes many integrated functions. However, it is possible to define a function if the one integrated in Python is not appropriate to serve a given objective. To define a function, Python provides the keyword def. The keyword def is followed by a suitable identifier as the name of the function and parentheses. eg: def sum (): One or more parameters may be optionally mentioned inside parentheses. The : symbol after parentheses starts an indented block.
+### Math functions
+The Python standard library provides a good number of built-in math functions for common operations.Here are math functions provided by Python:
+- math.sqrt(): allows to calculate the square root of a number.
+- math.pow(): allows to calculate the power of a number.
+- math.exp(): allows to calculate the exponential of a number.
+- math.log(): allows to calculate the natural logarithm (ln) of a number.
+- math.sin(), math.cos(), math.tan(): allows to calculate the trigonometric values (sine, cosine, tangent) of an angle given in radians.
+- math.degrees(), math.radians(): convert angles between degrees and radians.
+- math.ceil(), math.floor(): round a number up or down, respectively.
+- math.fabs(): allows to calculate the absolute value of a number.
+To access each math function import it in your Python code like this: import math.
+### Advanced math functions
+Python provides also a library for scientific computing and numerical operations on large multidimensional arrays and matrices. This library is called NumPy (Numeric Python) and is often used for compute-intensive workloads in signal processing, image processing, simulation, modeling, optimization, machine learning and data science. 
+To access NumPy and its functions, import it in your Python code like this: import numpy as np
