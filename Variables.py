@@ -67,58 +67,98 @@ print(x) # output: 2
 
 #Boolean Operations
 ## Comparison operators. The comparison operators compare two operands and return a boolean either True or False. The following table lists comparison operators in Python.
-# >, return True if the left operand is higher than the right one.
+# >, returns True if the left operand is higher than the right one.
 x = 5
 y = 6
 print(x > y) # output: False 
 
-# <, return True if the left operand is lower than right one
+# <, returns True if the left operand is lower than right one
 x = 5
 y = 6
 print(x < y) # output: True
 
-# ==, return True if the operands are equal
+# ==, returns True if the operands are equal
 x = 5
 y = 6
 print(x == y) # output: False
 
-# !=, return True if the operands are not equal
+# !=, returns True if the operands are not equal
 x = 5
 y = 6
 print(x != y) # output : True
 
-# >=, return True if the left operand is higher than or equal to the right one
+# >=, returns True if the left operand is higher than or equal to the right one
 x = 5
 y = 6
 print(x >= y) # output: False
 
-# <=, return True if the left operand is lower than or equal to the right one
+# <=, returns True if the left operand is lower than or equal to the right one
 x = 5
 y = 6
 print(x <= y) # output: True
 
-# Logical operators.The logical operators are used to combine two boolean expressions. The logical operations are generally applicable to all objects, and support truth tests, identity tests, and boolean operations.
+## Logical operators.The logical operators are used to combine two boolean expressions. The logical operations are generally applicable to all objects, and support truth tests, identity tests, and boolean operations.
 # and, return True if both are true
 x = 5
 y = 6
 print( x > 1 and y < 10) # output: True
 
-# or, return True if at least one is true
+# or, returns True if at least one is true
 x = 5
 y = 6
 print( x > 1 or y < 10) # output: True
 
-# not, Returns True if an expression evalutes to false and vice-versa
+# not, returns True if an expression evalutes to false and vice-versa
 x = 5
 print(not x > 1) # output: False
 
-# Identity operators
-# is, return True if both are true
+## Identity operators
+# is, returns True if both are true
 x = 5
 y = 6
 print(x is y) # output: False
 
-# is not, return True if at least one is true
+# is not, returns True if at least one is true
 x = 5
 y = 6
 print(x is not y) # output: True
+
+## Membership Test Operators. The membership test operators in and not in test whether the sequence has a given item or not. For the string and bytes types, x in y is True if and only if x is a substring of y.
+# in, Returns True if the sequence contains the specified item else returns False.
+nums = [1, 2, 3, 4, 5]
+print(1 in nums) # output: True
+print(10 in nums) # output: False
+print("str" in "string") # output: True
+
+# not in, not operator.contains(a,b). Returns True if the sequence does not contains the specified item, else returns False.
+nums = [1, 2, 3, 4, 5]
+print(1 not in nums) # output: False
+print(10 not in nums) # output: True
+print("str" not in "string") # output: False
+
+# Variable type
+## Integer variable
+x = 69
+print("Type of x:", type(x)) # output: Type of x: <class 'int'>
+
+## Float variable
+x= 6.4584122
+print("Type of x:", type(x)) # output: Type of x: <class 'float'>
+
+## String variable
+greet = "Hello!"
+print("Type of greet:", type(greet)) # output: Type of greet: <class 'str'>
+
+## Boolean variable
+Name = True
+print("Type of Name:", type(Name)) # output: Type of Name: <class 'bool'>
+
+## if and else statment
+x = 123
+y = 789
+z = x+y
+print(z) # output: 912
+if isinstance(z, int):
+    print("yes it\'s an integer!")
+else:
+    print("it\'s not an integer!") # output: yes it's an integer!
