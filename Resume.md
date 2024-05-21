@@ -12,6 +12,7 @@ A computer programming language is made up of a set of predefined words called k
 Here is some list of the Python keywords: (False, None, True, and, as, else, elif, if, in, is, while, etc). The global list of Python keywords can be obtained using the following help command. eg: help("keywords"). Enter any keyword to get more help. eg: help("while"). # NB: Except for the first three (False, None and True), the other keywords are entirely in lowercase.
 ### PYTHON VARIABLE
 In Python, a variable is a container that stores a value. In other words, variable is the name given to a value, so that it becomes easy to refer to it later. eg: x = "Hello Olivia!" ; print(x). I'll have the output: Hello Olivia! # Explanation: Here the name of my variable is x and her value is "Hello Olivia!.
+Variable names may only contain Latin letters, digits, and/or the underscore character, and they cannot start with a digit. They also cannot be any of the reserved keywords. Variable names must start with a letter and can contain only letters, '_', and numbers.
 ### PYTHON DATA TYPE
 Data types are the classification or categorization of data items. 
 We distinguish: (i) Scalar Types, including: *int: Positive or negative whole numbers (without a decimal part) eg: -10, 10, 4, 5, 3554714; *float: Any real number with a decimal part. eg: 1.53, 8.455; *bool: Data with one of two built-in values True or False; *None: The None represents the null object in Python. A None is returned by functions that don't explicitly return a value; *complex: A number with a real and imaginary component represented as x + 3y.
@@ -43,6 +44,7 @@ In Python, we have many useful string methods. Here is some of them:
 *string.index()	who returns the index of the first occurence of a substring in the given string.
 ### Character escaping
 In Python, the escape character is used to invoke an alternative implementation of the subsequent character in a sequence. Backslash \ is used as an escape character. Here is somes of escape character common used: \\ Backslash; \' Single quote;\'' Double quote;\b	Backspace; \f	Form feed; \n	Newline; \nnn	Octal notation, where n is in the range 0-7; \t	Tab.
+### fString
 ### String Operators
 In Python, arithmetic operators don't operate on strings. However, there are special operators for string processing, including: (+)	Appends the second string to the first; (*)	Concatenates multiple copies of the same string; []	Returns the character at the given index; [:]	Fetches the characters in the range specified by two index operands separated by the : symbol; (in)	Returns true if a character exists in the given string; (not in)	Returns true if a character does not exist in the given string.
 ### Regular Expression
