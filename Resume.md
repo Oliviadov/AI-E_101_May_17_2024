@@ -35,16 +35,17 @@ The identity operators "is" and "is not" check whether the two objects have the 
 String is an sequence of unicode characters wrapped inside single, double, or triple quotes. Strings can include letters, numbers, symbols, and even whitespace characters. eg: "Hello, Olivia!" 'Hello, World!' "3548".
 ### String methode
 In Python, we have many useful string methods. Here is some of them: 
-*string.replace() is used to returns a copy of the string where all occurrences of a substring are replaced with another substring;
-*string.lower()	who returns the copy of the original string where in all the characters are converted to lowercase;
-*string.upper()	who returns a string in the upper case. Symbols and numbers remain unaffected;
-*string.split()	who splits the string from the specified separator and returns a list object with string elements;
-*string.strip()	who returns a copy of the string by removing both the leading and the trailing characters;
-*string.find()	who returns the index of the first occurence of a substring in the given string (case-sensitive). If the substring is not found it returns -1;
-*string.index()	who returns the index of the first occurence of a substring in the given string.
+- string.replace() is used to returns a copy of the string where all occurrences of a substring are replaced with another substring;
+- string.lower()	who returns the copy of the original string where in all the characters are converted to lowercase;
+- string.upper()	who returns a string in the upper case. Symbols and numbers remain unaffected;
+- string.split()	who splits the string from the specified separator and returns a list object with string elements;
+- string.strip()	who returns a copy of the string by removing both the leading and the trailing characters;
+- string.find()	who returns the index of the first occurence of a substring in the given string (case-sensitive). If the substring is not found it returns -1;
+- string.index()	who returns the index of the first occurence of a substring in the given string.
 ### Character escaping
 In Python, the escape character is used to invoke an alternative implementation of the subsequent character in a sequence. Backslash \ is used as an escape character. Here is somes of escape character common used: \\ Backslash; \' Single quote;\'' Double quote;\b	Backspace; \f	Form feed; \n	Newline; \nnn	Octal notation, where n is in the range 0-7; \t	Tab.
-### fString
+### f-String
+A formatted string literal, or an f-string, is a string literal that is prefixed with 'f' or 'F'. It provide a convenient and concise way to embed expressions (such as variable names) within strings delimited by curly braces {}. eg: types_of_people = 10 ; x = f"There are {types_of_people} types of people." The output will return: There are 10 types of people.
 ### String Operators
 In Python, arithmetic operators don't operate on strings. However, there are special operators for string processing, including: (+)	Appends the second string to the first; (*)	Concatenates multiple copies of the same string; []	Returns the character at the given index; [:]	Fetches the characters in the range specified by two index operands separated by the : symbol; (in)	Returns true if a character exists in the given string; (not in)	Returns true if a character does not exist in the given string.
 ### Regular Expression
