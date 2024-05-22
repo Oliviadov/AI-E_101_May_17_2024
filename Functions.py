@@ -5,6 +5,13 @@ greet("Mirabelle) # calling function with argument
 greet(2145)
 # output : Hello  Mirabelle; Hello  2145
 
+def factorial(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * factorial(n - 1)  # calculate n multiplied by the factorial of n - 1
+print(factorial(12)) # output :479001600
+
 # Multiple Parameters      
 def greet(name1, name2, name3):  
     print('Hello ', name1, ' , ', name2, ', and ', name3)
