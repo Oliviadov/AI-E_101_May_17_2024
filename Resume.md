@@ -59,6 +59,8 @@ eg: text = "Your father is famous"
 # Get the lenght of the string
 lenght = len(text)
 print("Lenght of the string:", lenght). # output : 21. Spaces are taken into account
+### String multiplication
+The multiplication operator repeats a string a specified number of times. eg: text = "'78565\'"; result = text * 5; print(result). The output will return:'78565''78565''78565''78565''78565'.
 ### Character escaping
 In Python, the escape character is used to invoke an alternative implementation of the subsequent character in a sequence. Backslash \ is used as an escape character. Here is somes of escape character common used: \\ Backslash; \' Single quote;\'' Double quote;\b	Backspace; \f	Form feed; \n	Newline; \nnn	Octal notation, where n is in the range 0-7; \t	Tab.
 ### f-String
