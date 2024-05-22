@@ -47,16 +47,16 @@ f-strings support various formatting options to control the appearance of values
 ### String indexing and string slicing
 In Python string indexing allows to access individual characters in a string by their position, or index, within the string. Indexing in Python starts at 0 for the first character, and negative indices count backward from the end of the string. However, it's also possible to use slicing to extract substrings from a string.
 eg: name = "Olivia" 
-# Access the first character (index 0)
+#Access the first character (index 0)
 first_char = name[0]; print("First character:", first_char). The output will return "O".
-# Access the last character (index -1)
+#Access the last character (index -1)
 last_char = name[-1]; print("Last character:", last_char). The output will return "a".
-# Extract substrings from a string
+#Extract substrings from a string
 substring = name[1:5]; print("Substring:", substring). The output will return "livi" 
 ###  String length
 The len() function in Python is a built-in function that returns the length of an object. When applied to a string, it returns the number of characters in that string. 
 eg: text = "Your father is famous"
-# Get the lenght of the string
+#Get the lenght of the string
 lenght = len(text)
 print("Lenght of the string:", lenght). # output : 21. Spaces are taken into account
 ### String multiplication
