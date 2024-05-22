@@ -56,3 +56,25 @@ last_char = name[-1]
 print("Last character:", last_char) # output : e
 
 # String slicing
+# Extract substrings from a string
+substring = name[2:6]
+print("Substring:", substring) # output : "riel" 
+# Acess a range of characteres using negative indexing
+substring1 = name[-7:-4]
+print("Substring1:", substring1) # output : "uri"
+
+###  String length
+text = "I have the best team!"
+# Get the lenght of the string
+lenght = len(text)
+print("Lenght of the string:", lenght). # output : 21. Spaces are taken into account
+
+# String multiplication
+x = "'Amazing!\'"
+y = x*10
+print(y) # output :'Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!'
+
+# Regular expressions
+
+
+
