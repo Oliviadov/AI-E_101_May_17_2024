@@ -38,3 +38,21 @@ end12 = "d"
 end13 = "o"
 print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
 print(end7 + end8 + end9 + end10 + end11 + end12 + end13) # output: Olivia Dovoedo
+
+# String formatting
+points = 5432
+total = 1245
+z = points/total
+formatted_z = f"{z:.1%}"
+print("Formatted_z:", formatted_z) # output: Formatted_z: 436.3%
+
+# String indexing
+name = "Murielle"
+# Access,the first character (index 0)
+first_char = name[0]
+print("First character:", first_char) # output : "M"
+# Access the last character (index -1)
+last_char = name[-1]
+print("Last character:", last_char) # output : e
+
+# String slicing
