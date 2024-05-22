@@ -74,7 +74,6 @@ x = "'Amazing!\'"
 y = x*10
 print(y) # output :'Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!''Amazing!'
 
-# Regular expressions
 
 
 
