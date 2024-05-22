@@ -42,6 +42,23 @@ In Python, we have many useful string methods. Here is some of them:
 - string.strip()	who returns a copy of the string by removing both the leading and the trailing characters;
 - string.find()	who returns the index of the first occurence of a substring in the given string (case-sensitive). If the substring is not found it returns -1;
 - string.index()	who returns the index of the first occurence of a substring in the given string.
+### String formatting
+f-strings support various formatting options to control the appearance of values within the string. eg: x = 6.454534547865; formatted_x = f"{x:.4f}"; print("Formatted_x:", formatted_x). The output will return Formatted_x: 6.4545. Explanation: :".4f" specifies that the value of x should be formatted as a floating-point number with 4 decimal places.
+### String indexing and string slicing
+In Python string indexing allows to access individual characters in a string by their position, or index, within the string. Indexing in Python starts at 0 for the first character, and negative indices count backward from the end of the string. However, it's also possible to use slicing to extract substrings from a string.
+eg: name = "Olivia" 
+# Access the first character (index 0)
+first_char = name[0]; print("First character:", first_char). The output will return "O".
+# Access the last character (index -1)
+last_char = name[-1]; print("Last character:", last_char). The output will return "a".
+# Extract substrings from a string
+substring = name[1:5]; print("Substring:", substring). The output will return "livi" 
+###  String length
+The len() function in Python is a built-in function that returns the length of an object. When applied to a string, it returns the number of characters in that string. 
+eg: text = "Your father is famous"
+# Get the lenght of the string
+lenght = len(text)
+print("Lenght of the string:", lenght). # output : 21. Spaces are taken into account
 ### Character escaping
 In Python, the escape character is used to invoke an alternative implementation of the subsequent character in a sequence. Backslash \ is used as an escape character. Here is somes of escape character common used: \\ Backslash; \' Single quote;\'' Double quote;\b	Backspace; \f	Form feed; \n	Newline; \nnn	Octal notation, where n is in the range 0-7; \t	Tab.
 ### f-String
